@@ -30,7 +30,7 @@ function onInputElSearch(e) {
   fetchCountries(name)
     .then(renderInputDate)
     .catch(error => {
-      Notify.warning('Oops, there is no country with that name');
+      Notify.failure('Oops, there is no country with that name');
       clearPage();
       return error;
     });
