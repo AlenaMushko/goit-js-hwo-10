@@ -7,8 +7,9 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
-  color: #212121;
+  background-image: linear-gradient(to left,
+      rgb(235, 220, 80) 5%,
+      rgb(65, 157, 228));
   line-height: 1.5;
 }
 
